@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone Paper Scissor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Stone Paper Scissor</h1>
+    <div class="game-body">
+        <h1 id="status">Let's Play</h1>
+        <div class="show-item">
+            <img src="https://img.itch.zone/aW1nLzY3MjIwNzguZ2lm/original/3kwXny.gif" alt="" class="show-item" id="systemTurn">
+
+        </div>
+        <div class="game-pad">
+            <div class="play-icon one" id="Stone">
+                <img src="./img/Stone.png" alt="" class="img-icon">
+
+            </div>
+            <div class="play-icon two" id="Paper">
+                <img src="./img/Paper.png" alt="" class="img-icon" id="paper">
+                
+            </div>
+            <div class="play-icon three" id="Scissor">
+                <img src="./img/Scissor.png" alt="" class="img-icon" >
+                
+            </div>
+
+            <div class="controls">
+                <button id="play"><i class="fa-solid fa-play fa-2xl"></i></button>
+                <button id="reset"><i class="fa-solid fa-rotate fa-2xl"></i></button>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

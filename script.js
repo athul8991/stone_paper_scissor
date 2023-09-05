@@ -1,6 +1,7 @@
 const slctButton = document.getElementsByClassName('play-icon');
 const playCard = ['Stone','Paper','Scissor']
 const addStatus = document.querySelector('#status');
+const nxtBtn = document.querySelector('#reset');
 
 for(let i =0;i<slctButton.length;i++){
     slctButton[i].addEventListener('click',(e)=>{
